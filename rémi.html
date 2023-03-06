@@ -1,0 +1,150 @@
+<header>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #fdbb2d, #22c1c3); /* gradient background */
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav {
+  display: flex;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  transition: all .3s ease;
+}
+header nav ul li a:hover {
+  color: #fdbb2d;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.product-detail-section {
+  padding: 100px 20px;
+}
+
+.product-detail-section .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  flex: 1;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.product-image img {
+  max-width: 500px;
+}
+
+.product-info {
+  flex: 1;
+  text-align: left;
+}
+
+.product-info h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.product-info p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.product-info .button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #333;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.product-info .button:hover {
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+.back-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back-button:hover {
+  background-color: #666;
+}
+</style>
+    <nav>
+      <ul>
+        <li><a href="new 1.html">maison</a></li>
+        <li><a href="au.html">on s'en branle</a></li>
+        <li><a href="product.html">Drogue</a></li>
+        <li><a href="CU.html">tu veux te battre ?</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="product-detail-section">
+  <div class="container">
+    <div class="product-image">
+      <img src="goofy.png" alt="product 1">
+    </div>
+    <div class="product-info">
+      <h1>Mais ? C'est Rémiiiiiiiiii</h1> 
+      <p>Bah je sais pas moi il est lui quoi vraiment y'a rien à faire</p>
+      <a href="argent.html" class="button">Afin de souffrir</a>
+    </div>
+  </div>
+</div>
+<button class="back-button" onclick="window.location='product.html'">Boutton</button>
